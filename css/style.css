@@ -657,8 +657,10 @@ h1, h2, h3, h4, h5,
   border-radius: 50%; }
 
 .speaker {
+  text-align: center;
   margin-bottom: 50px; }
   .speaker .name {
+    font-size: 1.5em;
     left: -80px;
     position: relative; }
     @media (max-width: 1199.98px) {

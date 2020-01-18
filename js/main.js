@@ -58,8 +58,8 @@ jQuery(document).ready(function($) {
 				w = $this.width();
 
 			if ( w > 768 ) {
-				if ( $('body').hasClass('') ) {
-					$('body').removeClass('');
+				if ( $('body').hasClass('offcanvas-menu') ) {
+					$('body').removeClass('offcanvas-menu');
 				}
 			}
 		})
