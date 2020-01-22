@@ -42,11 +42,12 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.html">Buy Tickets</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#advisory">Advisory Committee</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">Quick Links</a></li>
+                <li class="cta"><a href="register.html">Register Now</a></li>
               </ul>
             </nav>
           </div>
@@ -72,7 +73,7 @@
     </div>
 
     <!--About us Section-->
-    <div class="site-section">
+    <div class="site-section" id="about">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 ">
@@ -104,7 +105,7 @@
             <p>
               A hackathon is a design sprint- like event in which computer programmers and others invloved in software...</p>
             <div class="d-flex coordinator align-items-center">
-              <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Know More</span></a>
+              <a href="./hackathon.html" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Know More</span></a>
             </div>
           </div>
         </div>
@@ -114,7 +115,7 @@
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
             <p>Innovazia is a poster and project making event in which you have to make innovative and beautiful posters/projects on...</p>
             <div class="d-flex coordinator align-items-center">
-              <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Know More</span></a>
+              <a href="./innovazia.html" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Know More</span></a>
             </div>
           </div>
         </div>
@@ -122,7 +123,7 @@
     </div>
 
 
-    <div class="site-section">
+    <div class="site-section" id="advisory">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -300,7 +301,7 @@
     </div>
   -->
 
-    <div class="site-section">
+    <div class="site-section" id="sponsors">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 ">
@@ -342,8 +343,7 @@
         </div>
       </div>
     </div>
-
-        <div class="site-section">
+        <div class="site-section" id="contact">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 ">
@@ -414,7 +414,7 @@
       </div>
     </div>
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="footer">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
@@ -461,6 +461,32 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
   <script src="js/main.js"></script>
     
