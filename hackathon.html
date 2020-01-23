@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
-    <link rel="icon" href="https://techathlon18.netlify.com/img/techathlonlogo.png" size="8x8">
-    <link rel="shortcut_icon" href="https://techathlon18.netlify.com/img/techathlonlogo.png" sizes="8x8">
+    <link rel="icon" href="./images/logo1.png" size="8x8">
+    <link rel="shortcut_icon" href="./images/logo1.png" sizes="8x8">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -32,7 +32,7 @@
       <div class="site-mobile-menu-body"></div>
     </div>
     
-    <header class="site-navbar py-3" role="banner">
+    <header class="site-navbar py-3 bg-dark" style="position:fixed !important;"  role="banner">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
@@ -42,11 +42,11 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About Us</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.html">Buy Tickets</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#prize">Prizes</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#quicklink">Quick Links</a></li>
+                <li class="cta"><a href="buy-tickets.html">Register Now</a></li>
               </ul>
             </nav>
           </div>
@@ -56,21 +56,20 @@
       </div>
     </header>
 
-    <div class="site-section site-hero inner">
+    <div class="site-section site-hero inner" id="top">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
             <span class="d-block mb-3 caption" data-aos="fade-up">
-              <img src="https://techathlon18.netlify.com/img/techathlonlogo.png" style="height: 5em;" alt="">
+              <img src="./images/logo1.png" style="height: 5em;" alt="">
             </span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Hackathon</h1>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">2020</h1>
+            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Hackathon'20</h1>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="site-section">
+    <div class="site-section" id="about">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 ">
@@ -89,7 +88,7 @@
         </div>
       </div>
     </div>
-    <div class="site-section">
+    <div class="site-section" id="prize">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 ">
@@ -227,7 +226,7 @@
 
 
          
-    <div class="site-section">
+    <div class="site-section" id="schedule">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-4 mb-5">
@@ -365,7 +364,7 @@
       </div>
     </div>
  
-    <footer class="site-footer">
+    <footer class="site-footer" id="quicklink">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
@@ -394,6 +393,7 @@
               <a href="#" class="p-2"><span class="icon-youtube"></span></a>
               <a href="#" class="p-2"><span class="icon-instagram"></span></a>
             </p>
+            <a href="#top"> Back to Top </a>
           </div>
         </div>
       </div>
@@ -412,6 +412,32 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
+  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
   <script src="js/main.js"></script>
     
