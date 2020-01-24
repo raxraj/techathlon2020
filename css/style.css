@@ -1,7 +1,7 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: #cfcfd1;
+  color: #D0D6B3 !important;
   font-weight: 300;
   font-size: 1rem;
   background: #232531;
@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
+  background-color: #D0D6B3 !important;
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
@@ -609,11 +610,6 @@ h1, h2, h3, h4, h5,
   background-attachment: fixed;
 }
 
-#events{
-  background: linear-gradient(to right , rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../images/bg_4.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 #about{
   background-size: cover;
