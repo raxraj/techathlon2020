@@ -598,11 +598,27 @@ h1, h2, h3, h4, h5,
 .container-fluid {
   max-width: 1400px; }
 
+.quote-1{
+  background: linear-gradient(to right , rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../images/bg_2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#advisory{
+  background: linear-gradient(to right , rgba(0,0,0,0.9),rgba(0,0,0,0.99)),url('../images/bg_3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .site-hero {
-  margin-bottom: 10rem; }
+  margin-bottom: 10rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../images/background_1.jpg');
+ }
   .site-hero, .site-hero .row {
     min-height: 700px;
-    height: calc(100vh - 95px); }
+    height: calc(110vh - 95px); }
   .site-hero.inner, .site-hero.inner .row {
     min-height: 400px;
     height: calc(50vh - 95px); }
