@@ -610,6 +610,9 @@ h1, h2, h3, h4, h5,
   background-attachment: fixed;
 }
 
+#contact{
+  background:#A0D2DB !important;
+}
 
 #about{
   background-size: cover;
