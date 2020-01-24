@@ -614,10 +614,22 @@ h1, h2, h3, h4, h5,
   background:#A0D2DB !important;
 }
 
-#about{
+#schedule{
+  background:#DFE0E2 !important;
+}
+
+#prize{
+  background: linear-gradient(to right , rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../images/bg_9.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
+
+#prizes{
+  background: linear-gradient(to right , rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../images/bg_f.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 
 
 
