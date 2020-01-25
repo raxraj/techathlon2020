@@ -1,0 +1,26 @@
+@media (min-width : 768px){
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width : 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .site-hero{
+        background-attachment:auto;
+        background: #232531 !important;
+    }
+    .site-section-heading  h2:after  {
+        left: 0% !important;
+    }
+    .site-section .text-justify{
+        margin-left: 0 !important;
+    }
+    .site-section-heading.text-center h2:after{
+        background: transparent !important;
+        height: 0px !important;
+    }
+
+}

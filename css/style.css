@@ -1,7 +1,7 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: #D0D6B3 !important;
+  color: #FFFFFF !important;
   font-weight: 300;
   font-size: 1rem;
   background: #232531;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  background-color: #D0D6B3 !important;
+  background-color: #FFFFFF !important;
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
@@ -636,12 +636,13 @@ h1, h2, h3, h4, h5,
 .site-hero {
   margin-bottom: 10rem;
   background-size: cover;
+  padding-top: 0 !important;
   background-attachment: fixed;
   background-image: url('../images/background_1.jpg');
  }
   .site-hero, .site-hero .row {
     min-height: 700px;
-    height: calc(110vh - 95px); }
+    height: calc(120vh - 95px); }
   .site-hero.inner, .site-hero.inner .row {
     min-height: 400px;
     height: calc(50vh - 95px); }
