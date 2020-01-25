@@ -507,7 +507,7 @@ h1, h2, h3, h4, h5,
           text-decoration: none; }
   .site-mobile-menu .site-mobile-menu-body {
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto !important;
     position: relative;
     padding: 0 20px 20px 20px;
     height: calc(100vh - 52px);
