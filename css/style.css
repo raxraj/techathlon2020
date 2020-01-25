@@ -630,7 +630,75 @@ h1, h2, h3, h4, h5,
   background-attachment: fixed;
 }
 
+#collegeName{
+  border: 2px solid black;
+  border-radius: 4px;
+}
 
+#teamName{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part1Name{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part1Email{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part1Contact{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part2Name{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part2Email{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part2Contact{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part3Name{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part3Email{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part3Contact{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part4Name{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part4Email{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#part4Contact{
+  border: 2px solid black;
+  border-radius: 4px;
+}
 
 
 .site-hero {
@@ -723,9 +791,9 @@ h1, h2, h3, h4, h5,
     color: #e9e9ea; }
 
 .form-group .form-control {
-  color: #fff !important;
+  color: #000 !important;
   background: none;
-  border: 2px solid #fff; }
+  border: 2px solid #000; }
   .form-group .form-control:active, .form-group .form-control:focus {
     background: none; }
 
