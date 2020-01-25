@@ -463,6 +463,7 @@ h1, h2, h3, h4, h5,
   background: #fff;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
+  -webkit-transform: translate3d(0,0,0);
   -ms-transform: translateX(110%);
   transform: translateX(110%);
   -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
