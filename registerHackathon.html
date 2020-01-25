@@ -75,7 +75,9 @@
               Contact us at Techathlon@ipec.org.in <br>
               Event Charges: ₹500/- Per team</p> <br> 
           </div>
-            <form action="#" >
+            <span class="text-danger">Fields marked * are mandatory</span>
+            <br><br>
+            <form action="http://techathlon20.herokuapp.com/registerHackathon" method="POST" >
              
 
               <div class="row form-group">
@@ -93,7 +95,7 @@
               
                 <div class="col-md-4 mb-3 mb-md-0">
                   <label class="" for="teamSize" style="color: black">Team Size <span class="text-danger">*</span></label>
-                  <input type="number" name="quantity" min="3" max="4" id="teamSize" required name="teamSize" class="form-control text-black">
+                  <input type="number" min="3" max="4" id="teamSize" required name="teamSize" placeholder="Min : 3 & Max : 4s" class="form-control text-black">
                 </div>
               </div>
 
@@ -168,12 +170,12 @@
                 
                 <div class="col-md-6">
                   <label class="" for="part4Name" style="color: black"> Participant 4 Name</label> 
-                  <input type="text" id="part4Name" required name="part4Name" class="form-control text-black">
+                  <input type="text" id="part4Name"  name="part4Name" class="form-control text-black">
                 </div>
 
                 <div class="col-md-6">
                   <label class="" for="part4Contact" style="color: black">Participant 4 Contact</label> 
-                  <input type="number" id="part4Contact" name="part4Contact" required  class="form-control text-black">
+                  <input type="number" id="part4Contact" name="part4Contact"   class="form-control text-black">
                 </div>
 
               </div>
@@ -182,9 +184,16 @@
                 
                 <div class="col-md-12">
                   <label class="" for="part4Email" style="color: black">Participant 4 Email</label> 
-                  <input type="email" id="part4Email" name="part4Email" required class="form-control text-black">
+                  <input type="email" id="part4Email" name="part4Email"  class="form-control text-black">
                 </div>
               </div>
+              <div class="col-md-12 text-black">
+                <label for="mentor" class="text-black ml-0">Would you bring mentor?</label>
+                <br>
+                <input type="radio" name="mentor" id="mentor" value="No" checked> No<br>
+                <input type="radio" name="mentor" id="mentor" value="Yes"> Yes<br>
+              </div>
+              <br>
 
               <div class="row form-group">
                 <div class="col-md-12"> <center>
