@@ -19,7 +19,7 @@
     <link rel="shortcut_icon" href="https://techathlon18.netlify.com/img/techathlonlogo.png" sizes="8x8">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body style="background-color: #fff;">
   
   <div class="site-wrap">
 
@@ -56,20 +56,24 @@
       </div>
     </header>
 
-    <div class="site-section site-hero inner" id="top">
-      <div class="container">
+    <div class="site-section site-hero" id="top">
+      <div class="container" style="padding-top: 0 !important; padding-bottom: 20vh !important">
         <div class="row align-items-center">
-          <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up">
-              <img src="./images/logo1.png" style="height: 8em;" alt="">
-            </span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Innovazia'20</h1>
+          <div class="col-md-12">
+            <img src="./images/logo.png" style="height: 8em;"   alt="" data-aos="fade-up" data-aos-delay="100" class="img-fluid">
+            <img src="./images/logo1.png" style="height: 8em;"alt="" data-aos="fade-up" data-aos-delay="100" srcset=""> 
+            <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Inderprastha Engineering College</span>
+            <span class="d-block caption" style="font-size: 16px;" data-aos="fade-up" data-aos-delay="100">Department of Computer Science & Engineering</span>
+            <span class="d-block caption" style="font-size: 18px;" data-aos="fade-up" data-aos-delay="100">Presents InterCollege</span>
+            <h1 class="d-block mb-2 mt-2" data-aos="fade-up" data-aos-delay="200">Innovazia'20</h1>
+            <span class="d-block mb-2 caption" data-aos="fade-up" data-aos-delay="300">February 12th-13th</span>
+            <a href="#about" class="btn-custom bg-black" data-aos="fade-up" data-aos-delay="400"><span>Know More</span></a>
           </div>
+          
         </div>
       </div>
     </div>
-
-    <div class="site-section" id="about">
+    <div class="site-section" style="padding-top: 0 !important;" id="about">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 ">
@@ -77,84 +81,103 @@
               <h2 class="text-black">Welcome To Innovazia</h2>
             </div>
           </div>
-          <div class="col-lg-5 mt-5 pl-lg-5 text-justify" style="color: #3B252C" data-aos="fade-up" data-aos-delay="200">
-            <p>Innovazia, a Poster and Project competition event, invites creative minds to present their ideas for fomenting the Tech-Industry ahead through their digital posters or projects. The singular aim of the event is to provide the students with an opportunity to portray their presentation and designing skills within.Winners are awarded with cash prize and exciting goodies.</p> <br>
+          <div class="col-lg-12 mt-5 pl-lg-5 text-justify" style="color: #3B252C" data-aos="fade-up" data-aos-delay="200">
+            <p>Innovazia, a Poster and Project competition event, invites creative minds to present their ideas for fomenting the Tech-Industry ahead through their digital posters or projects. The singular aim of the event is to provide the students with an opportunity to portray their presentation and designing skills within.Winners are awarded with cash prize and exciting goodies.  </p> <br>
             <div class="" style="display: inline;" >
-              <a href="#" class="btn-custom" data-aos="fade-right" data-aos-delay="400"><span>Register Now</span></a>
+              <a class="btn-custom mt-3" data-toggle="modal" data-target="#exampleModal2" data-aos="fade-right" data-aos-delay="500" style=" text-align: center;" ><span>Register Now</span></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="site-section" id="prizes">
+
+<div class="site-section" id="prize">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4 ">
             <div class="site-section-heading" data-aos="fade-up" data-aos-delay="100">
-              <h2>Prizes</h2>
+              <h2>Prizes</h2> <br>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <p> 
-              Many Exciting Prizes await for you worth ₹50,000
-              <br>
-              <div class="text-primary">
-                First Prize: ₹2,500 (For Software)
-                <br>
-                <span class="text-white">
-                  First Prize: ₹2,500 (For Firmware)
-                </span>
+          <div class="col-lg-12">
+            <h4>For Poster Presentation</h4>
+            <div class="row">
+              <div class="col-md-6 col-lg-4 mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="200">
+                <div class="pricing border-primary text-center">
+                  <h2>1st Position</h2>
+                  <div class="amount"><sup>INR</sup><span class="number">2000 </span> </div> <br>
+                  <ul class="list-unstyled mb-5 text-muted">
+                    <li> & Vouchers</li>
+                  </ul>
+                </div>
               </div>
-              
-              <br>
-              <br>
-              <div class="text-primary">
-                Second Prize: ₹1,500 (For Software & Firmware Combined)
+    
+              <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="pricing text-center">
+                  <h2>2nd Position</h2> <br>
+                  <div class="amount"><sup>INR</sup><span class="number">1500  </span> </div>
+                  <ul class="list-unstyled mb-5 text-muted">
+                    <li> & Vouchers</li>
+                  </ul>
+                </div>
               </div>
-              <br>
-              <br>
-              Common Special Prize: ₹1,000
-              <br>
-              <br>
-              Consolation Prize
-              <br>
-              
-              <br>
-              Vouchers
-            </p>
-          </div>
-        </div>
-        <br><br>
-        <h4>For Poster</h4>
-        <br>
-        <div class="row">
-          <div class="col-lg-12 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <p> 
-              Many Exciting Prizes await for you worth ₹50,000
-              <br>
-              <div class="text-primary">
-                First Prize: ₹2,000 
-                <br>
+    
+              <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="400">
+                <div class="pricing text-center">
+                  <h2>Common Special Prize</h2>
+                  <div class="amount"><sup>INR</sup><span class="number">1000</span> </div>
+                  <ul class="list-unstyled mb-5 text-muted">
+                    <li> & Vouchers</li>
+                  </ul>
+                </div>
               </div>
-              
-              <br>
-              <br>
-              <div class="text-white">
-                Second Prize: ₹1,500
+            </div> <br>
+
+            <h4>For Project Presentation</h4>
+            <div class="row">
+              <div class="col-md-6 col-lg-4 mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="200">
+                <div class="pricing border-primary text-center">
+                  <h2>1st Position</h2>
+                  <div class="amount"><sup>INR</sup><span class="number">2500 <div class="text-white"> <h4> (for Software) </h4> </div></span> <sup>INR</sup><span class="number">2500 <div class="text-white"> <h4> (for firmware) </h4> </div></span> </div>
+                  <ul class="list-unstyled mb-5 text-muted">
+                    <li> & Vouchers</li>
+                  </ul>
+                </div>
               </div>
-              <br>
-              <br>
-              Common Special Prize: ₹1,000
-              <br>
-              <br>
-              Consolation Prize
-            </p>
+    
+              <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="pricing text-center">
+                  <h2>2nd Position</h2>
+                  <div class="amount"><sup>INR</sup><span class="number">1500 <div class="text-white"> <h4> (for Software & firmware Combined) </h4> </div> </span> </div>
+                  <ul class="list-unstyled mb-5 text-muted">
+                    <li> & Vouchers</li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="400">
+                <div class="pricing text-center">
+                  <h2>Common Special Prize</h2>
+                  <div class="amount"><sup>INR</sup><span class="number">1000</span> </div>
+                  <ul class="list-unstyled mb-5 text-muted">
+                    <li> & Vouchers</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          
+
+
           </div>
         </div>
       </div>
     </div>
+
+
+
+
+              
 
 
     <!-- <div class="site-section">
@@ -367,7 +390,37 @@
         </div>
       </div>
     </footer>
-    
+    <div class="modal fade bd-example-modal-xl"  style="margin-top: 11%; " id="exampleModal2" tabindex="" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="text-danger" style="font-size: xx-large;">
+                Innovazia'20 consist of two Events
+              </div>
+              <div class="text-black" style="font-size: x-large;">
+                For Project Presentation
+                <a href="registerInnovProject.html" class="btn">Click here.</a>
+              </div>
+              <br>
+              <div class="text-black" style="font-size: x-large;">
+                For Poster Presentation
+              <a href="registerInnovPoster.html" class="btn">Click here.</a>
+              </div>
+              <br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
