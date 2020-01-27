@@ -484,6 +484,7 @@ h1, h2, h3, h4, h5,
       float: right;
       margin-top: 8px; }
       .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span {
+        color: black !important;
         font-size: 30px;
         display: inline-block;
         padding-left: 10px;
